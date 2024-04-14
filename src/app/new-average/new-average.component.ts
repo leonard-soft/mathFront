@@ -20,7 +20,6 @@ export class NewAverageComponent implements OnInit {
   constructor (private http: HttpClient, private router: Router) {}
 
   ngOnInit(): void {
-    Swal.fire({ title: "No Authorization", icon: "error" });
     const element = localStorage.getItem('token');
     if (element == null) {
       this.router.navigate(['/login']);

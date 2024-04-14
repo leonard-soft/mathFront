@@ -15,7 +15,6 @@ export class ThemesComponent implements OnInit {
   constructor (private router: Router) {}
 
   ngOnInit(): void {
-    Swal.fire({ title: "No Authorization", icon: "error" });
     const element = localStorage.getItem('token');
     if (element == null) {
       this.router.navigate(['/login']);
