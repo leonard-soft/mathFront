@@ -11,10 +11,10 @@ import { SaveUserDataComponent } from './save-user-data/save-user-data.component
 export const routes: Routes = [
     {path:'', component: DefaultComponent},
     {path:'login', component: LoginComponent},
-    {path:'userRegistration', component: UserRegistrationComponent},
+    {path:'registration', component: UserRegistrationComponent},
     {path:'index', component: DasboardComponent},
-    {path:'newAverage', component: NewAverageComponent},
+    {path:'addaverage', component: NewAverageComponent},
     {path:'themes', component: ThemesComponent},
-    {path:'myAverage', component: MyAveragesComponent},
-    {path:'saveUserData', component: SaveUserDataComponent}
+    {path:'myaverage', component: MyAveragesComponent},
+    {path:'saveuserdata', component: SaveUserDataComponent}
 ];
