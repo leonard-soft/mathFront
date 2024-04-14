@@ -1,0 +1,157 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+  
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+  
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+  
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+  
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px; 
+}
+
+div.darts {
+  width: 700px;
+  height: 350px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+
+div.darts img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+div.averages {
+  width: 700px;
+  height: 400px;
+  background-color: crimson;
+  border-radius: 10px;
+  margin: auto;
+}
+  
+div.averages form {
+  width: 500px;
+  display: block;
+  margin: auto; 
+}
+
+div.averages form mat-form-field {
+  width: 500px;
+}
+
+div.averages form button {
+  width: 300px;
+  display: block;
+  margin: auto;
+  background-color: #04AA6D;
+  font-size: 19px;
+  font-family: cursive;
+}
+
+div.averages button {
+  width: 300px;
+  display: block;
+  margin: auto;
+  background-color: #04AA6D;
+  font-size: 19px;
+  font-family: cursive;
+}
+
+@media screen and (max-width: 944px) {
+  div.darts {
+    width: 660px;
+  }
+  div.averages {
+    width: 660px;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  div.darts {
+    width: 620px;
+  }
+  div.averages {
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 844px) {
+  div.darts {
+    width: 580px;
+  }
+  div.averages {
+    width: 580px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div.darts {
+    width: 540px;
+  }
+  div.averages {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  div.darts {
+    width: 500px;
+  }
+  div.averages {
+    width: 500px;
+  }
+  div.averages form {
+    width: 460px;
+    display: block;
+    margin: auto; 
+  }
+  div.averages form mat-form-field {
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+  
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+  

@@ -1,0 +1,23 @@
+<mat-card class="loginCard">
+    <form id="loginForm">
+        <h2 class="loginTitle" align="center">USER REGISTRATION</h2>
+        <div class="usernameDiv">
+            <mat-form-field class="usernameInput">
+                <mat-label>username</mat-label>
+                <input [(ngModel)]="username" name="username" matInput [required]="true">
+            </mat-form-field>
+        </div>
+        <div class="passwordDiv">
+            <mat-form-field class="passwordInput">
+                  <mat-label>Enter your password</mat-label>
+                  <input [(ngModel)]="password" name="password" matInput [type]="hide ? 'password' : 'text'" [required]="true">
+                  <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                  </button>
+            </mat-form-field>           
+        </div>
+        <div class="buttonDiv">
+            <button class="loginButton" type="button" (click)="validateUserRegistration()" mat-raised-button color="basic">SAVE USER</button>
+        </div>
+    </form>
+</mat-card>

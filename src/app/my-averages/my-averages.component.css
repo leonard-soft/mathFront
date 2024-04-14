@@ -1,0 +1,85 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+    
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+    
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+    
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+    
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px; 
+  }
+    
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {
+      float: left;
+    }
+    div.content {
+      margin-left: 0;
+    }
+  }
+    
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+    
+  .tenPointsCircle {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px;
+    display: block;
+    margin: 50px auto;
+    border-radius: 300px;
+    transition: all 500ms ease;
+  }
+  
+  .tenPointsCircle:hover {
+    background-color: #04AA6D;
+  }
+  
+  .ninePointsCircle {
+    width: 90%;
+    height: 90%;
+    background-color:white;
+    box-shadow: 0px 0px 0px 1px;
+    display: block;
+    margin: auto;
+    border-radius: 300px;
+    transition: all 500ms ease;
+  }
+  
+  .ninePointsCircle:hover {
+    background-color: green;
+  }
+  
+  

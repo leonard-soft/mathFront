@@ -1,0 +1,359 @@
+.loginCard {
+    width: 1100px;
+    height: 450px;
+    display: block;
+    margin: 50px auto;
+    background-color: rgb(129, 131, 247);
+}
+
+.loginTitle {
+    font-size: 31px;
+    display: block;
+    padding-top: 30px;
+    font-family:fantasy;
+}
+
+.usernameDiv {
+    width: 700px;
+    display: block;
+    margin: 40px auto;
+}
+
+.usernameInput {
+    width: 700px;
+}
+
+.passwordDiv {
+    width: 700px;
+    display: block;
+    margin: 40px auto;
+}
+
+.passwordInput {
+    width: 700px;
+}
+
+.buttonDiv {
+    width: 700px;
+    display: block;
+    margin: 40px auto;
+}
+
+.loginButton {
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .loginCard {
+        width: 950px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .loginCard {
+        width: 880px;
+        height: 460px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .loginCard {
+        width: 800px;
+        height: 490px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .loginCard {
+        width: 760px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .loginCard {
+        width: 720px;
+        height: 510px;
+    }
+}
+
+@media screen and (max-width: 733px) {
+    .loginCard {
+        width: 680px;
+        height: 520px;
+    }
+
+    .usernameDiv {
+        width: 660px;
+    }
+
+    .usernameInput {
+        width: 660px;
+    }
+
+    .passwordDiv {
+        width: 660px;
+    }
+
+    .passwordInput {
+        width: 660px;
+    }
+
+    .buttonDiv {
+        width: 660px;
+    }
+
+    .loginButton {
+        width: 660px;
+    }
+}
+
+@media screen and (max-width: 691px) {
+    .loginCard {
+        width: 630px;
+        height: 530px;
+    }
+
+    .usernameDiv {
+        width: 610px;
+    }
+
+    .usernameInput {
+        width: 610px;
+    }
+
+    .passwordDiv {
+        width: 610px;
+    }
+
+    .passwordInput {
+        width: 610px;
+    }
+
+    .buttonDiv {
+        width: 610px;
+    }
+
+    .loginButton {
+        width: 610px;
+    }
+}
+
+@media screen and (max-width: 613px) {
+    .loginCard {
+        width: 560px;
+        height: 520px;
+    }
+
+    .usernameDiv {
+        width: 540px;
+    }
+
+    .usernameInput {
+        width: 540px;
+    }
+
+    .passwordDiv {
+        width: 540px;
+    }
+
+    .passwordInput {
+        width: 540px;
+    }
+
+    .buttonDiv {
+        width: 540px;
+    }
+
+    .loginButton {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .loginCard {
+        width: 510px;
+        height: 520px;
+    }
+
+    .usernameDiv {
+        width: 490px;
+    }
+
+    .usernameInput {
+        width: 490px;
+    }
+
+    .passwordDiv {
+        width: 490px;
+    }
+
+    .passwordInput {
+        width: 490px;
+    }
+
+    .buttonDiv {
+        width: 490px;
+    }
+
+    .loginButton {
+        width: 490px;
+    }
+}
+
+@media screen and (max-width: 523px) {
+    .loginCard {
+        width: 480px;
+        height: 500px;
+    }
+
+    .usernameDiv {
+        width: 460px;
+    }
+
+    .usernameInput {
+        width: 460px;
+    }
+
+    .passwordDiv {
+        width: 460px;
+    }
+
+    .passwordInput {
+        width: 460px;
+    }
+
+    .buttonDiv {
+        width: 460px;
+    }
+
+    .loginButton {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 493px) {
+    .loginCard {
+        width: 450px;
+        height: 490px;
+    }
+
+    .usernameDiv {
+        width: 430px;
+    }
+
+    .usernameInput {
+        width: 430px;
+    }
+
+    .passwordDiv {
+        width: 430px;
+    }
+
+    .passwordInput {
+        width: 430px;
+    }
+
+    .buttonDiv {
+        width: 430px;
+    }
+
+    .loginButton {
+        width: 430px;
+    }
+}
+
+@media screen and (max-width: 461px) {
+    .loginCard {
+        width: 420px;
+        height: 480px;
+    }
+
+    .usernameDiv {
+        width: 400px;
+    }
+
+    .usernameInput {
+        width: 400px;
+    }
+
+    .passwordDiv {
+        width: 400px;
+    }
+
+    .passwordInput {
+        width: 400px;
+    }
+
+    .buttonDiv {
+        width: 400px;
+    }
+
+    .loginButton {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .loginCard {
+        width: 390px;
+        height: 470px;
+    }
+
+    .usernameDiv {
+        width: 370px;
+    }
+
+    .usernameInput {
+        width: 370px;
+    }
+
+    .passwordDiv {
+        width: 370px;
+    }
+
+    .passwordInput {
+        width: 370px;
+    }
+
+    .buttonDiv {
+        width: 370px;
+    }
+
+    .loginButton {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .loginCard {
+        width: 360px;
+        height: 460px;
+    }
+
+    .usernameDiv {
+        width: 340px;
+    }
+
+    .usernameInput {
+        width: 340px;
+    }
+
+    .passwordDiv {
+        width: 340px;
+    }
+
+    .passwordInput {
+        width: 340px;
+    }
+
+    .buttonDiv {
+        width: 340px;
+    }
+
+    .loginButton {
+        width: 340px;
+    }
+}

@@ -1,0 +1,14 @@
+.mat-toolbar-row {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}  
+
+@media (max-width: 600px) {
+    .mat-toolbar-row {
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+    }
+}
+  

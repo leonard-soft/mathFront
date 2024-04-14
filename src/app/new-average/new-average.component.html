@@ -1,0 +1,29 @@
+<app-header></app-header>
+<!-- La barra lateral -->
+<div class="sidebar">
+  <a href="/index">dashboard</a>
+  <a href="/themes">themes</a>
+  <a class="active" href="/newAverage">new averages</a>
+  <a href="/myAverage">my averages</a>
+</div>
+
+<div class="content">
+    <div class="darts"> <br>
+      <img src="assets/dart.jpg">
+    </div> 
+    <div class="averages">
+      <h2 align="center">Insert values for one average</h2> <br>
+      <form>
+        <mat-form-field class="example-full-width">
+          <mat-label>Values</mat-label>
+          <input [(ngModel)]="values" name="values" matInput placeholder="example 1 2 3 8 ..." [required]="true">
+        </mat-form-field> <br>
+        <button type="button" (click)="calculateAverage()">get average</button>
+      </form> <br> <br>
+      <div class="localAverage">
+        <h2 align="center">Average</h2>
+        <div id="average"></div> 
+      </div> <br>
+      <button type="button" (click)="saveAverage()">save average</button>
+    </div>
+</div>
